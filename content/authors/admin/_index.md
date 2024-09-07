@@ -171,12 +171,11 @@ awards:
     icon: coursera
     summary: |
       I learned the foundational concepts in being an IT support. I am exposed to concepts and practices in computer networking, cybersecurity, operating systems, system administration, and IT infrastructures. 
-  
+
   - title: Project Management: The Basics for Success
     certificate_url: Project Management: The Basics for Success
     date: '2020-11-20'
     awarder: Coursera
     icon: coursera
 ---
-
 I am currently a graduating Library and Information Science student at the University of the Philippines Diliman. I have knowledge and skills in data analysis, data management, statistical analysis, information ethics, and artificial intelligence.
