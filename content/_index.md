@@ -49,7 +49,7 @@ sections:
       username: admin
 
 sections:
-- block: languages
+  - block: languages
     content:
       title: Languages
       username: admin
