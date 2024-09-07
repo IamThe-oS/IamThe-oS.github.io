@@ -105,7 +105,7 @@ skills:
       - name: Power BI
         description: ''
         percent: 50
-        icon: custom/powerbi
+        icon: custom/powerBI
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
