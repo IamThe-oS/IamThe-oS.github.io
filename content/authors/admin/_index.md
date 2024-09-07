@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Theo
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Theo Stevenson Magpantay
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Theo Stevenson
+last_name: Magpantay
 
 # Status emoji
 status:
@@ -17,83 +17,69 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Data Analyst / Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
+  - name: 
     url: https://www.example.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:tmagpantay@up.edu.ph'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/IamThe-oS
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/theomagpantay
+  - icon: brands/facebook
+    url: https://www.facebook.com/Stevenson.Theo
+
+interests:
+  - Data Science
+  - Data Engineering
+  - Artificial Intelligence
+  - Information Ethics
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Library and Information Science
+    institution: University of the Philippines - Diliman
+    date_start: 2020-08-10
+    date_end: present
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      GWA: 1.23
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Notable Courses:
+      - LIS 198 (Introduction to Artificial Intelligence in LIS)
+      - Stat 101 (Elementary Statistics)
+      - LIS 192 (Quantitative Research Methods in LIS)
+      - LIS 198 (Project Management Fundamentals for LIS)
+
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Research Assistant
+    company_name: UP School of Library and Information Studies 
+    company_url: 'https://upslis.info/'
+    company_logo: ''
+    date_start: 2023-07-01
+    date_end: 2023-08-01
+    summary: 
+  - position: Web Developer
+    company_name: UP School of Library and Information Studies Library
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+    date_start: 2023-02-01
+    date_end: 2023-06-01
+    summary:
+  - position: Data Science Tea Time and Learning Galore Team Leader
+    company_name: UP Data Science Society
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 2022-09-01
+    date_end: 2023-01-01
+    summary: 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -104,69 +90,93 @@ skills:
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
+      - name: R
         description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
+        percent: 60
+        icon: devicon/r
+      - name: PostgreSQL
         description: ''
-        percent: 40
-        icon: devicon/pytorch
+        percent: 70
+        icon: devicon/postgresql
+      - name: Excel
+        description: ''
+        percent: 70
+        icon: custom/excel
+      - name: Power BI
+        description: ''
+        percent: 50
+        icon: custom/powerbi
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: Reading
         description: ''
         percent: 80
+        icon: custom/reading
+      - name: Guitar
+        description: ''
+        percent: 90
+        icon: custom/guitar
+      - name: Photography
+        description: ''
+        percent: 70
         icon: camera
+      - name: Video Games
+        description: ''
+        percent: 50
+        icon: custom/game
 
 languages:
   - name: English
     percent: 100
+  - name: Filipino
+    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 20
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: Google Data Analytics Professional Certificate (7/8 courses)
+    url: https://www.coursera.org/professional-certificates/google-data-analytics
+    date: '2024-09-01'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
+      I studied the foundations of data science and data analysis. I learned about the various tools for being a data analyst, such as BigQuery/SQL, Google Sheet/Excel, Tableau/PowerBI, and the R programming language. I became familiar with using SQL, Google Sheet/Excel, and R for extracting, loading, and transforming data, as well as cleaning and analyzing data;  utilizing Google Sheet/Excel, R, and Tableau for data visualization; and applying the skills and concept to conduct a case study.   
+
+  - title: 'Power BI Fundamentals'
+    certificate_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/140ea79b940e7e3c9d6f16effd70226fde513a05
+    date: '2024-08-01'
+    awarder: DataCamp
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      I learned that Power BI is an essential data analyst tools for data modeling, data analysis, and data visualization. It is a very powerful tool, often used by data practitioners to share their findings and insights to stakeholders. Data visualization transforms the data and the findings easier to see and understand.  
+
+  - title: SQL Fundamentals
+    certificate_url: https://www.datacamp.com/completed/statement-of-accomplishment/track/140ea79b940e7e3c9d6f16effd70226fde513a05
+    date: '2024-02-01'
+    awarder: DataCamp
+    icon: datacamp
+    summary: |
+      I learned the basic and advanced queries of the Structured Query Language (SQL), which is often used to query databases that contain large data. One big advantage of databases compared to the other data storage, spreadsheet, is that databases are scalable and can save space by normalizing the data. Using SQL, we can model our data and normalize database with the star schema or the snowflake schema. SQL can also be used to perform data cleaning and data analysis of large amount of data.
+
+  - title: Google IT Support Specialization
+    certificate_url: https://www.coursera.org/account/accomplishments/professional-cert/C6XDEVP3TFT5
+    date: '2023-08-01'
+    awarder: Coursera
+    icon: coursera
+    summary: |
+      I learned the foundational concepts in being an IT support. I am exposed to concepts and practices in computer networking, cybersecurity, operating systems, system administration, and IT infrastructures. 
+  
+  - title: Project Management: The Basics for Success
+    certificate_url: Project Management: The Basics for Success
+    date: '2020-11-20'
+    awarder: Coursera
+    icon: coursera
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am currently a graduating Library and Information Science student at the University of the Philippines Diliman. I have knowledge and skills in data analysis, data management, statistical analysis, information ethics, and artificial intelligence.
