@@ -12,6 +12,7 @@ design:
 # Page sections
 sections:
   - block: biography
+    id: biography
     content:
       username: admin
       # Show a call-to-action button under your biography? (optional)
@@ -28,6 +29,7 @@ sections:
 
 sections:
   - block: experience
+    id: experience
     content:
       username: admin
     design:
@@ -38,14 +40,16 @@ sections:
 
 sections:
   - block: skills
+    id: skills
     content:
       title: Skills & Hobbies
       username: admin
 
 sections:
-  - block: awards
+  - block: certificates
+    id: certificates
     content:
-      title: Awards
+      title: Certificates
       username: admin
 
 sections:
