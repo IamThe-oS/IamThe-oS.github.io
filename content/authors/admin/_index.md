@@ -126,6 +126,10 @@ skills:
         description: ''
         percent: 50
         icon: custom/game
+      - name: Drawing
+        description: ''
+        percent: 20
+        icon: custom/draw
 
 languages:
   - name: English
