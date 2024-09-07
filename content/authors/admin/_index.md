@@ -47,7 +47,7 @@ education:
   - area: Library and Information Science
     institution: University of the Philippines - Diliman
     date_start: 2020-08-10
-    date_end: present
+    date_end: 2025-07-27
     summary: |
       GWA: 1.23
 
